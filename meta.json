@@ -1,0 +1,31 @@
+{
+    "directions": "./directions.md",
+    "language": "javascript",
+    "framework": "mocha",
+    "version": "",
+    "editables": [
+        "./sources/substring-finder.js"
+    ],
+    "commands": {
+        "install": [
+            "npm install",
+            "npm test"
+        ],
+        "run": "npm test"
+
+    },
+    "steps": [
+        {
+            "title": "should invoke validator.contains"
+        },
+        {
+            "title": "should invoke contains with the proper arguments"
+        },
+        {
+            "title": "subStringFinder() should return true if substring is in string"
+        },
+        {
+            "title": "subStringFinder() should return false if substring is not in string"
+        }
+    ]
+}

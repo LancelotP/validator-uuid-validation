@@ -1,0 +1,14 @@
+{
+    "repository": "https://github.com/julien-sarazin/validator-uuid-validation.git",
+    "description": "a discovery for coderpower",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "expect.js": "^0.3.1",
+        "mocha": "^2.3.4",
+        "sinon": "^1.17.2",
+        "validator": "^4.4.0"
+    },
+    "scripts": {
+        "test": "mocha -R json-stream"
+    }
+}
