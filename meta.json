@@ -4,7 +4,7 @@
     "framework": "mocha",
     "version": "",
     "editables": [
-        "./sources/substring-finder.js"
+        "./sources/uuid-validator.js"
     ],
     "commands": {
         "install": [
