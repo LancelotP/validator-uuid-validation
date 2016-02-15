@@ -16,16 +16,16 @@
     },
     "steps": [
         {
-            "title": "should invoke validator.contains"
+            "title": "should invoke validator.isUUID"
         },
         {
-            "title": "should invoke contains with the proper arguments"
+            "title": "should invoke isUUID with the proper arguments"
         },
         {
-            "title": "subStringFinder() should return true if substring is in string"
+            "title": "validateUUID() should return true if given value is an UUID"
         },
         {
-            "title": "subStringFinder() should return false if substring is not in string"
+            "title": "validateUUID() should return false if given value is not an UUID"
         }
     ]
 }
